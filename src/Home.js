@@ -39,7 +39,7 @@ export default function Home () {
   </div>
   <div className="right-content">
   <div className="image-me">
-    <img src="/mememe.jpeg" alt="it's me" className="image-size" />
+    <img src="mememe.jpeg" alt="it's me" className="image-size" />
   </div>
   </div>
 </div>
