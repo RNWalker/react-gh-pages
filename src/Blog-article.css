@@ -1,0 +1,30 @@
+.blog-title{
+    font-size: xx-large;
+}
+
+.date{
+    font-size: large;
+}
+.blog-article-container {
+    color: pink;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 21%;
+
+}
+
+.blog-writing {
+    font-size: x-large;
+    line-height: 2;
+}
+
+.image-medical-me img{
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-left: 2%;
+ }
+
+
+

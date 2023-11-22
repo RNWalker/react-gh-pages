@@ -1,0 +1,114 @@
+
+.home-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    position: relative;
+    font-family: 'Inria Sans', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+   
+  
+  }
+
+  .left-content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/* Add styles for the left content area here */
+    margin-top: 10%;
+  }
+  
+  
+  #home-content-rebecca {
+    font-size: 200%;
+    color: white;/* Add styles for the 'REBECCA' element here */
+
+  }
+
+  #home-content-rebecca h1 {
+
+    margin: 0; /* Remove the default margin that adds space above and below the h1 elements */
+    padding: 0; /* Remove the default padding */
+  }
+  
+  #home-content-noelia {
+    font-size: x-large;
+    color: white;
+    /* Add styles for the 'one pixel at a time' element here */
+  }
+  
+  #home-content-walker {
+    font-size: 100%;
+    color: #FFD4DA;
+    /* color: #FF4989; */
+    width: 80%;
+  }
+
+  .buttons-home {
+    gap: 10%;
+    display: flex;
+  }
+  
+.buttons-home button {
+
+  border: none;
+  border-radius: 10px; 
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #FFACB7; /* Pink color */
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(255, 0, 128, 0.5);
+  
+  border: 3px solid transparent; /* Set an initial transparent border */
+  border-image: linear-gradient(to right, #FF4989, #FFACB7); /* Border gradient */
+  border-image-slice: 1; /* Border slices */
+  
+}
+
+.buttons-home button:hover {
+  background-color: white; /* Change the background color on hover */
+  background: linear-gradient(to right, #FF4989, #FFACB7);
+  /* You can add other styles for button hover state as needed */
+}
+
+.right-content img{
+
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /* border: 3px solid pink; */
+}
+
+.right-content {
+  position: relative;
+  display: inline-block;
+  overflow: hidden; /* Hides the overflow from the pseudo-element */
+  
+}
+
+.right-content::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px; 
+  right: -3px; 
+  bottom: -3px; 
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, #FF4989, #FFACB7);
+  border-image-slice: 1;
+  animation: spin 5s ease infinite;
+  margin: 8%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

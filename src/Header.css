@@ -1,0 +1,45 @@
+header {
+  margin-top: 2%;
+  justify-content: space-between;
+  background-color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 19%;
+  margin-right: 18%;
+}
+
+.one {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.two{
+  margin-left: auto;
+  font-size: large;
+}
+
+
+/* Optionally, add styling for list items and links */
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+a:hover {
+  color: #FFACB7; /* Change this to your desired hover color */
+}

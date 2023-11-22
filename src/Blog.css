@@ -1,0 +1,28 @@
+
+#blog-title {
+    color: #FFACB7;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  
+  }
+
+
+  .blog-container {
+    margin-left: 20%;
+    margin-right: 21%;
+  
+  }
+
+  .blog1 {
+    color: #FFACB7;
+    border: #FFACB7 2px solid;
+    border-radius: 5%;
+    padding: 5%;
+  }
+
+  .blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+

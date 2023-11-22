@@ -1,0 +1,162 @@
+
+  body {
+    background-color: black;
+
+  }
+
+  .about-container {
+    margin-left: 20%;
+    margin-right: 21%;
+  
+  }
+
+  #about-title {
+    color: #FFACB7;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  
+  }
+
+
+  h3 {
+    font-size: x-large;
+  
+  }
+
+  .snippy {
+    font-size:100%;
+  }
+
+
+ .text-container {
+    font-size: medium;
+    padding: 6%;
+    display: inline-block;
+ }
+
+ .image-moi,
+ .image-education,
+ .image-science,
+ .image-hobbies {
+   display: flex;
+   align-items: center; /* Align items vertically */
+   justify-content: center;
+ }
+
+ .who-am-i-container,
+.education-container,
+.work-experience-container,
+.hobbies-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+}
+
+.who-am-i-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   margin-bottom: 5%;
+   border: 2px solid #FFACB7;
+   border-radius: 10px;
+   color: white;
+
+}
+
+
+.education-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   margin-bottom: 5%;
+   border: 2px solid #FFACB7;
+   border-radius: 10px;
+   background-color: #FFACB7;
+
+   
+}
+
+
+.image-moi img{
+    
+   height: auto;
+   display: block;
+   margin: 0 auto;
+   max-width: 80%; 
+}
+
+ .image-education img{
+
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-left: 2%;
+ }
+
+
+
+ .education-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 5%;
+    border: 2px solid #FFACB7;
+    border-radius: 10px;
+    background-color: #FFACB7;
+
+    
+ }
+
+ .work-experience-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 5%;
+    border: 2px solid #FFACB7;
+    border-radius: 10px;
+    color: white;
+
+
+ }
+
+ .image-science img{
+
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 6%;
+ 
+ }
+
+ .hobbies-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 5%;
+    border: 2px solid #FFACB7;
+    border-radius: 10px;
+    background-color: #FFACB7;
+
+ }
+
+ .image-hobbies img{
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+ }
+
+ .awards-title {
+    text-align: center;
+ }
+
+
+
+
+
+
+ 
+
