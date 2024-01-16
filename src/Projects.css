@@ -1,87 +1,30 @@
 .projects-container {
-    text-align: center;
     color: #FFACB7;
     margin-left: 20%;
     margin-right: 20%;
 
   }
-  
-  .projects {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    justify-content: center;
-    /* border: solid 2px #FFACB7;
-    border-radius: 2%; */
-  }
-  
-  .project {
-    border: 1px solid #ccc;
+
+  #project-title {
+    color: #FFACB7;
     text-align: center;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 5%;
   }
   
-  .info {
-    font-size: 150%;
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
   }
+  
   .project-icon {
-    max-width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 5%;
   }
 
-  .projects-title {
-    margin-top: 2%;
-    margin-bottom: 5%;
-    
-  }
-
-  .title-of-project{
-    color: white;
-  }
   
-  #project-1{
-    border: solid 1px #FFACB7; /* Reducing border thickness */
-    border-radius: 5px; /* Adjusting border radius */
-    padding: 1%; 
-  }
-
-  #hover{
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: medium;
-    
-  }
-
-  #project-2{
-    border: solid 1px #FFACB7; /* Reducing border thickness */
-    border-radius: 5px; /* Adjusting border radius */
-    padding: 1%; 
-  }
-  #project-3{
-    border: solid 1px #FFACB7; /* Reducing border thickness */
-    border-radius: 5px; /* Adjusting border radius */
-    padding: 1%; 
-  }
-  #project-4{
-    border: solid 1px #FFACB7; /* Reducing border thickness */
-    border-radius: 5px; /* Adjusting border radius */
-    padding: 1%; 
-  }
-  #project-5{
-    border: solid 1px #FFACB7; /* Reducing border thickness */
-    border-radius: 5px; /* Adjusting border radius */
-    padding: 1%; 
-  }
-  #project-6{
-    border: solid 1px #FFACB7; /* Reducing border thickness */
-    border-radius: 5px; /* Adjusting border radius */
-    padding: 1%; 
-  }
 
   
   

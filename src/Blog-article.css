@@ -18,12 +18,18 @@
     line-height: 2;
 }
 
-.image-medical-me img{
+.medical-me img{
     height: auto;
     display: block;
     margin: 0 auto;
-    max-width: 100%;
-    margin-left: 2%;
+    max-width: 30%;
+    
+ }
+
+ .caption1 {
+    font-size: small;
+    text-align: center;
+    margin-top: 2%;
  }
 
 

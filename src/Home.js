@@ -27,8 +27,7 @@ export default function Home () {
     </div>
     <div id="home-content-walker">
       <p>I'm a medic turned software engineer, 
-      trained by an award-winning bootcamp. Experienced with full-stack web development, 
-      I have all the tools I need to build reliable software solutions.
+      trained by an award-winning bootcamp. 
       </p>
     </div>
     <div className="buttons-home">
@@ -39,7 +38,7 @@ export default function Home () {
   </div>
   <div className="right-content">
   <div className="image-me">
-    <img src="mememe.jpeg" alt="it's me" className="image-size" />
+    <img src="/react-gh-pages/mememe.jpeg" alt="it's me" className="image-size" />
   </div>
   </div>
 </div>

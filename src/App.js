@@ -9,11 +9,12 @@ import Projects from './Projects';
 import Header from './Header';
 import Footer from './Footer';
 import Blog1 from './Blog1';
+import Blog2 from './Blog2';
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Header/>
         <Routes>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog/hello-world" element={<Blog1 />} />
+          <Route path="/blog/hackathon" element={<Blog2 />} />
         </Routes>
    
         <Footer/>

@@ -29,7 +29,7 @@ export default function About () {
                 
                 
                     <div className="image-moi">
-                        <img src="/moi.png" alt="it's me" className="image-size" />
+                        <img src="/react-gh-pages/moi.png" alt="it's me" className="image-size" />
                     
                 </div>
             </div>
@@ -38,7 +38,7 @@ export default function About () {
             <div className="education-container">
 
              <div className="image-education">
-    <img src="/groupphoto.jpeg" alt="it's me" className="image-size" />
+    <img src="/react-gh-pages/groupphoto.jpeg" alt="it's me" className="image-size" />
   </div>
 
             <div className="education title">
@@ -73,7 +73,7 @@ export default function About () {
             </div>
             <div className="image">
   <div className="image-science">
-    <img src="/science.jpeg" alt="it's me" className="image-size" />
+    <img src="/react-gh-pages/science.jpeg" alt="it's me" className="image-size" />
   </div>
 </div>
 </div>
@@ -81,7 +81,7 @@ export default function About () {
 <div className="hobbies-container">
                 <div className="image">
                     <div className="image-hobbies">
-                        <img src="/sunflower.jpeg" alt="it's me" className="image-size"/>
+                        <img src="/react-gh-pages/sunflower.jpeg" alt="it's me" className="image-size"/>
                     </div>
                     </div>
 
